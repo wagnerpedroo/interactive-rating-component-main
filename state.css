@@ -1,0 +1,58 @@
+@charset "UFT-8";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+/* colors palete */
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: #959eac;
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --DarkBlueclaro: hsl(213, 15%, 24%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+#thankyoustate {
+    width: 24rem;
+    height: auto;
+    background-color: var(--DarkBlue);
+    border-radius: 20px;
+    padding: 1.8rem;
+    display: none;
+}
+
+#ilustration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: hsl(214, 19%, 23%);
+    margin: 2rem auto;
+    color: var(--Orange);
+    font-size: 14px;
+}
+
+.title {
+    color: white;
+    margin: 1.3rem 0 1rem 0;
+    text-align: center;
+}
+
+.desc {
+    color: var(--MediumGrey);
+    font-size: 14px;
+}
+
+.center {
+    color: var(--MediumGrey);
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
